@@ -1,0 +1,640 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/25200d72f4efce71073cffbffb43def0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/7c3ed61c26231973209ef09bd66b017e/AndroidManifest.xml:16:1-20:12
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/aff5e62eef312ace6bba0c3a7e8be15b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/94a5594dcea450f5a8e0d43a8225f796/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e95c755378a8ea583b80028be59818f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b5d9902bef185effbb09d83226291840/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/63b90aabf2fbbaafab216c484b230c2a/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.4.0.aar/39ea08c8a623cd9543e6d567dd0cd5dc/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:16:1-31:12
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/3f91909d4dd25788b4b16206fc9fc892/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c70ed94ae887b3291b19b764bb05de58/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/8a0667366e8bd68d2fbcdaee1697a1cf/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/9955d10231dbec7a6e4fd1a35cb2cd7f/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/bd72320383da78a2ef3828417aa778cf/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/0610b2f22fd63b8bce7cd121bbd7eeec/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/e62a03c8185868d078fde29ad028b1f4/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/bac0ac49eca82dbb6c1e79de17f4f633/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.4.0.aar/2ef9599aae1dfd24acfa6100f793956e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-database-9.4.0.aar/27e249b1e6d61f58c5a29994fce2246c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.4.0.aar/ea464f510b2ef228606e1dca5fab5d2f/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.4.0.aar/7233c43da0e2137501ebf4e20e0c32cb/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.4.0.aar/8fc84f5211026f52143eed4db77f51ec/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/0554f576f5e46fc771fc37379c78fe32/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b967ed8d0a273054d24410153a66250a/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/9a58fd356da41fb76aeca12d2e0576d8/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/2007f159d008ad6cf0df97ac6157063b/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/688a1e1569e547a4bb959c213b19bf4d/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/e92e88d5f5ca3c9d8c4be6c6c54b4bce/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/d6740bff1cf1190f01d5b4a98315cc97/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/ac9ea0f049dc1fcb1a99d20a1cc2a9dc/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/6da99ce55a3089d6667f4fb6f49ef6b3/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/2823ab6e512ca6b927bf8faa2b416445/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/3f87253f3669165326ac69c77555393d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/c2c9f7927d494e74e22568f8efd3e340/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:16:1-39:12
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:16:1-60:12
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/91a68ffc8cf30beb067db85b5ac7b32e/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/08dd51f457b9930d04f06297455237f6/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/ec4ccd82a361c20fb73fb948fb6e35bb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/5c49169aa27c90d42716f274c22d4e9a/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+	package
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/d6740bff1cf1190f01d5b4a98315cc97/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/d6740bff1cf1190f01d5b4a98315cc97/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:22-76
+application
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-36:19
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/25200d72f4efce71073cffbffb43def0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/25200d72f4efce71073cffbffb43def0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/7c3ed61c26231973209ef09bd66b017e/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/7c3ed61c26231973209ef09bd66b017e/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/aff5e62eef312ace6bba0c3a7e8be15b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/aff5e62eef312ace6bba0c3a7e8be15b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/94a5594dcea450f5a8e0d43a8225f796/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/94a5594dcea450f5a8e0d43a8225f796/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b5d9902bef185effbb09d83226291840/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b5d9902bef185effbb09d83226291840/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c70ed94ae887b3291b19b764bb05de58/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c70ed94ae887b3291b19b764bb05de58/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/8a0667366e8bd68d2fbcdaee1697a1cf/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/8a0667366e8bd68d2fbcdaee1697a1cf/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/9955d10231dbec7a6e4fd1a35cb2cd7f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/9955d10231dbec7a6e4fd1a35cb2cd7f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/bd72320383da78a2ef3828417aa778cf/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/bd72320383da78a2ef3828417aa778cf/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/0610b2f22fd63b8bce7cd121bbd7eeec/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/0610b2f22fd63b8bce7cd121bbd7eeec/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/e62a03c8185868d078fde29ad028b1f4/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/e62a03c8185868d078fde29ad028b1f4/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/bac0ac49eca82dbb6c1e79de17f4f633/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/bac0ac49eca82dbb6c1e79de17f4f633/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/0554f576f5e46fc771fc37379c78fe32/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/0554f576f5e46fc771fc37379c78fe32/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b967ed8d0a273054d24410153a66250a/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b967ed8d0a273054d24410153a66250a/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/2007f159d008ad6cf0df97ac6157063b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/2007f159d008ad6cf0df97ac6157063b/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/688a1e1569e547a4bb959c213b19bf4d/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/688a1e1569e547a4bb959c213b19bf4d/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/e92e88d5f5ca3c9d8c4be6c6c54b4bce/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/e92e88d5f5ca3c9d8c4be6c6c54b4bce/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/d6740bff1cf1190f01d5b4a98315cc97/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/d6740bff1cf1190f01d5b4a98315cc97/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/ac9ea0f049dc1fcb1a99d20a1cc2a9dc/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/ac9ea0f049dc1fcb1a99d20a1cc2a9dc/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/6da99ce55a3089d6667f4fb6f49ef6b3/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/6da99ce55a3089d6667f4fb6f49ef6b3/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/2823ab6e512ca6b927bf8faa2b416445/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/2823ab6e512ca6b927bf8faa2b416445/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/3f87253f3669165326ac69c77555393d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/3f87253f3669165326ac69c77555393d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/c2c9f7927d494e74e22568f8efd3e340/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/c2c9f7927d494e74e22568f8efd3e340/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/91a68ffc8cf30beb067db85b5ac7b32e/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/91a68ffc8cf30beb067db85b5ac7b32e/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/08dd51f457b9930d04f06297455237f6/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/08dd51f457b9930d04f06297455237f6/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/ec4ccd82a361c20fb73fb948fb6e35bb/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/ec4ccd82a361c20fb73fb948fb6e35bb/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/5c49169aa27c90d42716f274c22d4e9a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/5c49169aa27c90d42716f274c22d4e9a/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
+activity#com.parse.starter.MainActivity
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:26:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:27-74
+uses-sdk
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/25200d72f4efce71073cffbffb43def0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/25200d72f4efce71073cffbffb43def0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/7c3ed61c26231973209ef09bd66b017e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/7c3ed61c26231973209ef09bd66b017e/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/aff5e62eef312ace6bba0c3a7e8be15b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/aff5e62eef312ace6bba0c3a7e8be15b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/94a5594dcea450f5a8e0d43a8225f796/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/94a5594dcea450f5a8e0d43a8225f796/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:multidex:1.0.2] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e95c755378a8ea583b80028be59818f1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e95c755378a8ea583b80028be59818f1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b5d9902bef185effbb09d83226291840/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b5d9902bef185effbb09d83226291840/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/63b90aabf2fbbaafab216c484b230c2a/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/63b90aabf2fbbaafab216c484b230c2a/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.4.0.aar/39ea08c8a623cd9543e6d567dd0cd5dc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.4.0.aar/39ea08c8a623cd9543e6d567dd0cd5dc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/3f91909d4dd25788b4b16206fc9fc892/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/3f91909d4dd25788b4b16206fc9fc892/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c70ed94ae887b3291b19b764bb05de58/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c70ed94ae887b3291b19b764bb05de58/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/8a0667366e8bd68d2fbcdaee1697a1cf/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/8a0667366e8bd68d2fbcdaee1697a1cf/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/9955d10231dbec7a6e4fd1a35cb2cd7f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/9955d10231dbec7a6e4fd1a35cb2cd7f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/bd72320383da78a2ef3828417aa778cf/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/bd72320383da78a2ef3828417aa778cf/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/0610b2f22fd63b8bce7cd121bbd7eeec/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/0610b2f22fd63b8bce7cd121bbd7eeec/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/e62a03c8185868d078fde29ad028b1f4/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/e62a03c8185868d078fde29ad028b1f4/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/bac0ac49eca82dbb6c1e79de17f4f633/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/bac0ac49eca82dbb6c1e79de17f4f633/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.4.0.aar/2ef9599aae1dfd24acfa6100f793956e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.4.0.aar/2ef9599aae1dfd24acfa6100f793956e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-database-9.4.0.aar/27e249b1e6d61f58c5a29994fce2246c/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-database-9.4.0.aar/27e249b1e6d61f58c5a29994fce2246c/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.4.0.aar/ea464f510b2ef228606e1dca5fab5d2f/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.4.0.aar/ea464f510b2ef228606e1dca5fab5d2f/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.4.0.aar/7233c43da0e2137501ebf4e20e0c32cb/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.4.0.aar/7233c43da0e2137501ebf4e20e0c32cb/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.4.0.aar/8fc84f5211026f52143eed4db77f51ec/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.4.0.aar/8fc84f5211026f52143eed4db77f51ec/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/0554f576f5e46fc771fc37379c78fe32/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/0554f576f5e46fc771fc37379c78fe32/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b967ed8d0a273054d24410153a66250a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/b967ed8d0a273054d24410153a66250a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/9a58fd356da41fb76aeca12d2e0576d8/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/9a58fd356da41fb76aeca12d2e0576d8/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/2007f159d008ad6cf0df97ac6157063b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/2007f159d008ad6cf0df97ac6157063b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/688a1e1569e547a4bb959c213b19bf4d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/688a1e1569e547a4bb959c213b19bf4d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/e92e88d5f5ca3c9d8c4be6c6c54b4bce/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/e92e88d5f5ca3c9d8c4be6c6c54b4bce/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/d6740bff1cf1190f01d5b4a98315cc97/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/d6740bff1cf1190f01d5b4a98315cc97/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/ac9ea0f049dc1fcb1a99d20a1cc2a9dc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/ac9ea0f049dc1fcb1a99d20a1cc2a9dc/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/6da99ce55a3089d6667f4fb6f49ef6b3/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/6da99ce55a3089d6667f4fb6f49ef6b3/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/2823ab6e512ca6b927bf8faa2b416445/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/2823ab6e512ca6b927bf8faa2b416445/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/3f87253f3669165326ac69c77555393d/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/3f87253f3669165326ac69c77555393d/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/c2c9f7927d494e74e22568f8efd3e340/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/c2c9f7927d494e74e22568f8efd3e340/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/91a68ffc8cf30beb067db85b5ac7b32e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/91a68ffc8cf30beb067db85b5ac7b32e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/08dd51f457b9930d04f06297455237f6/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/08dd51f457b9930d04f06297455237f6/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/ec4ccd82a361c20fb73fb948fb6e35bb/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/ec4ccd82a361c20fb73fb948fb6e35bb/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/5c49169aa27c90d42716f274c22d4e9a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/5c49169aa27c90d42716f274c22d4e9a/AndroidManifest.xml:20:5-43
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/94a5594dcea450f5a8e0d43a8225f796/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/stevenmcdonald/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:6:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:6:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:7:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:7:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:8:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/f684137a946d4397557dd3b03305afb0/AndroidManifest.xml:8:18-90
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/32ca68dbc786745e484cd1226cfd09fa/AndroidManifest.xml:30:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/668a253a904e56edfdf66cc60dde48d6/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/4409fe7331a24e1c5343fc723ae50804/AndroidManifest.xml:25:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:22:17-48
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/cf5c4920aa98705ae8e1ffa1f2137176/AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/eedcd6e7de6f2e47fd96ad8f1c6443a0/AndroidManifest.xml:29:13-58
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/03756bcc52a421fa15db695e50721b10/AndroidManifest.xml:29:18-77
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/4e5a04f27928f622a693fe585775788b/AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/205732a52233cfd8c228810292526521/AndroidManifest.xml:21:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/05ffad0c0c0071195ffa5601bcb19da2/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/73baef335f775b512cd1fc51e563e831/AndroidManifest.xml:20:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:25:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/723994516bc43f37ff78c90a00a1c01a/AndroidManifest.xml:28:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:29:13-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:31:13-36:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.parse.starter
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/5ec74f413421fe135206b6d1aea2d1f7/AndroidManifest.xml:35:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:29:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/bb29d0bcfe4b73e171db46e6f3157881/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/9dbcaa9be500f6f21f114e0ec80c07f4/AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:25:17-71
+permission#com.parse.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:28:22-76
+uses-permission#com.parse.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:33:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:36:13-40:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.parse.starter
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:39:27-58
+category#com.parse.starter
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:52:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/849e5d1f2fc36b338a81554a2207eec5/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/851c26b29e283fe4fb8af2db61784d82/AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/stevenmcdonald/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/5e7306ba87fa450c581e682ce2555ce5/AndroidManifest.xml:22:13-58
